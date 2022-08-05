@@ -1,0 +1,37 @@
+/* http://phpbego.wordpress.com */
+ 
+.table1 {
+    font-size: 13px;
+    table-layout: fixed;
+    font-family: sans-serif;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    color: #000; 
+    width: 100%;
+    border: none; /*#ccc */
+}
+
+.table1 tr th{
+    
+    background: transparent; /*#35A9DB */
+    color: #000; /*#fff */
+    font-weight: bold;
+    text-align: justify-all;
+    line-height: 15px; 
+}
+
+.table1, tr, td {
+    line-height: 25px;
+    vertical-align: top;
+    text-align: justify-all;
+    border: none;
+}
+
+.noreg {
+    font-size: 13px;
+    float: right !important;
+    position: fixed;
+    font-family: sans-serif;
+    margin-top: -50px;
+    font-weight: bold;
+}

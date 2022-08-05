@@ -1,0 +1,53 @@
+/* http://phpbego.wordpress.com */
+ 
+.table1 {
+    table-layout: fixed;
+    font-family: sans-serif;
+    color: #000;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0.5px solid #000; /*#ccc */
+}
+
+.table1 tr th{
+    
+    background: transparent; /*#35A9DB */
+    color: #000; /*#fff */
+    font-weight: bold;
+    border: 0.5px solid #000;
+}
+
+.table1, th, td {
+    padding: 5px 5px;
+    text-align: center;
+    border: 0.5px solid #000;
+}
+
+
+.table1 tr:nth-child(even) {
+    background-color: #ffffff; /*#f2f2f2 */
+}
+
+.judul{
+	text-align: center;
+}
+.tbl hr{
+	border :0;
+	border-top:1em double #000;
+}
+div.rounded {
+    width: 100%
+    height:1px;
+    border:1mm dashed #220044;
+    background-color: #f0f2ff;
+    border-radius: 3mm / 3mm;
+    background-clip: border-box;
+    padding: 1em;
+}
+
+hr.hrs { overflow: visible; /* For IE */ padding: 0; border: none; border-top: medium double #333; color: #333; text-align: center; } 
+hr.hrs:after { content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background: white; }
+
+hr.style2 {
+    border-top: 3px double #8c8b8b;
+}
